@@ -1,0 +1,31 @@
+{
+  "name": "chapter-02-ignite-app-server",
+  "version": "1.0.0",
+  "description": "Adding Parcel bundler to basic react app and adding React and ReactDom libraries",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sarthak-dev-personal/Namaste-React.git"
+  },
+  "author": "Sarthak Kapoor",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Sarthak-dev-personal/Namaste-React/issues"
+  },
+  "homepage": "https://github.com/Sarthak-dev-personal/Namaste-React#readme",
+  "devDependencies": {
+    "parcel": "^2.8.2",
+    "process": "^0.11.10"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+
+  "browsersList": [
+    "defaults and supports es6-module"
+  ]
+}
