@@ -5,3 +5,5 @@ We add Parcel for bundling and minifying our app to make it deployment ready for
 We add React and React Dom as global dependency because this will be required even in the production environment.
 
 We also add browsersList entry to our package.json to specify the browsers we'll be supporting in our app.
+
+We also install babel-plugin-transform-remove-console plugin to help remove console logs while building the app. We then have to configure the plugin inside .bablerc file as per the documentation on npmjs

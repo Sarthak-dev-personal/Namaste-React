@@ -4,7 +4,9 @@
   "description": "Adding Parcel bundler to basic react app and adding React and ReactDom libraries",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "parcel index.html",
+    "build": "parcel build index.html"
   },
   "repository": {
     "type": "git",
@@ -17,6 +19,8 @@
   },
   "homepage": "https://github.com/Sarthak-dev-personal/Namaste-React#readme",
   "devDependencies": {
+    "@babel/core": "^7.20.7",
+    "babel-plugin-transform-remove-console": "^6.9.4",
     "parcel": "^2.8.2",
     "process": "^0.11.10"
   },
@@ -24,7 +28,6 @@
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },
-
   "browsersList": [
     "defaults and supports es6-module"
   ]
