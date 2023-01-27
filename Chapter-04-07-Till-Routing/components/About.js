@@ -1,0 +1,7 @@
+const About = () => {
+    return <>
+        <h1>This is an About Us Component</h1>
+    </>
+}
+
+export default About;
